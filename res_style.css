@@ -1,3 +1,6 @@
+/*
+    Formats all general sections of content
+*/
 .content-sec{
     display: grid;
     grid-gap: 50px;
@@ -9,25 +12,37 @@
     color: rgb(236, 255, 241);
   }
 
+/*
+  Formats the list of skills
+*/
 #skill-list{
     grid-column: 1 /4;
 }
+/*
+    Formats the header section so that it is fixed on the screen
+*/
 #header{
     position: fixed;
     text-align: center;
     background-color: rgb(16, 29, 24);
     width: 100%;
-    height: 300 px;
+    height: 15%;
     font-family: "Lucida Console", monospace;
     font-size: 20px;
     
 }
 
+/*
+    Formats parts of the experience section
+*/
 #experience-text{
     grid-column: 1 /4;
     text-align: center;
 }
 
+/*
+    Formats how images are displayed
+*/
 img{
     display: block;
     margin-left: auto;
@@ -37,16 +52,24 @@ img{
     max-height: 80%;
     border: 10px solid rgb(28, 58, 41);
 }
+
+/*
+    Formats parts of the activity section
+*/
 .activity-wrapper{
     text-align: center;
 }
+
+/*
+    Formats parts of the education section
+*/
 .education-wrapper{
     grid-column: 1 /4;
     text-align: center;
 }
 
 /*
-    Navigation section
+    Format navigation bars
 */
 .nav-bar{
     position: relative;
@@ -65,14 +88,14 @@ img{
 }
 
 /*
-    Set color of link
+    Set color of links
 */
 a:link {
     color: rgb(70, 109, 75);
   }
   
 /*
-    Set color of link after visited
+    Set color of links after visited
 */
 a:visited {
     color: rgb(255, 255, 255);
