@@ -52,7 +52,12 @@ img{
     max-height: 80%;
     border: 10px solid rgb(28, 58, 41);
 }
-
+/*
+    Format default background color in body
+*/
+.body{
+    background-color: black;
+}
 /*
     Formats parts of the activity section
 */
