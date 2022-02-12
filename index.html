@@ -1,108 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>SashaHoltResume</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="res_style.css">
+    <title>SashaHoltResume</title>
 </head>
-<body>
-    <a id="Title">
-        <h1>Sasha Holt</h1>
-    </a>
 
-    <div class="reference_block">
-        <nav>
-            <a href="#Contact Information">Contact Information</a></li>
-            <a href="#Education">Education</a></li>
-            <a href="#Activities and Leadership">Activities and Leadership</a></li>
-            <a href="#Experience">Experience</a></li>
-            <a href="#Skills">Skills</a></li>
+<body>
+    <div id="header">
+        <a id="title" class="section-head">
+            <h1>Sasha Holt</h1>
+        </a>
+        <nav class = "nav-bar">
+            <a href="#Contact-Information">Contact Information</a>
+            <a href="#Education">Education</a>
+            <a href="#Activities-and-Leadership">Activities and Leadership</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Skills">Skills</a>
         </nav>
     </div>
 
-    <div class="content_block">
-        <section id="Contact_Section">
-            <a id="Contact Information">
-                <h2>Contact Information</h2>
-            </a>
-            <img src="sasha.jpg" alt="sasha" width="150" height="200" style="vertical-align:top">
+    <section id="cont_sec" class="content-sec">
+        <a id="Contact-Information" class="section-head">
+            <h2>Contact Information</h2>
+        </a>
+        <img src="sasha.jpg" alt="sasha">
 
-            <address>
-                Pronouns: They/Them/Theirs<br>
-                Email Adress: sasha23@vt.edu<br>
-                Phone Number: 301-873-5680 <br>
-                Home Address: <br>
-                403A Berryfield Ln<br>
-                Blacksburg, VA 24060 <br>
-                Feel free to visit my
-                <a href="https://github.com/sashnar">GitHub Page</a>!<br>
-            </address>
-        </section>
-        
-        <section id="Education_Section">
-            <a id="Education">
-                <h2>Education</h2>
-            </a>
+        <address>
+            Pronouns: They/Them/Theirs<br>
+            Email Adress: sasha23@vt.edu<br>
+            Phone Number: 301-873-5680 <br>
+            Feel free to visit my
+            <a href="https://github.com/sashnar">GitHub Page</a>!<br>
+        </address>
+        <address>
+            Home Address: <br>
+            403A Berryfield Ln<br>
+            Blacksburg, VA 24060 <br>
+        </address>
+    </section>
+    
+    <section id="edu-sec" class="content-sec">
+        <a id="Education" class="section-head">
+            <h2>Education</h2>
+        </a>
+        <div id="highschool" class="education-wrapper">
             <h3>High School Graduate | Spring 2019 | Centennial High School (MD)</h3>
             <ul>
-                <li>Graduated with a 4.3 weighted GPA</li>
+                <p>Graduated with a 4.3 weighted GPA</p>
             </ul>
+        </div>
+        <div id="undergrad" class="education-wrapper"> 
             <h3>Bachelor's in Computer Science | Fall 2019 - Present | Virginia Tech</h3>
             <ul>
-                <li>Intended graduation in Spring 2023</li>
-                <li>Working on a minor in Human-Computer Interaction</li>
-                <li>Current GPA of 3.54</li>
+                <p>Intended graduation in Spring 2023</p>
+                <p>Working on a minor in Human-Computer Interaction</p>
+                <p>Current GPA of 3.54</p>
             </ul>
-        </section>
+        </div>
+    </section>
 
-        <section id="Activities_Section">
-            <a id="Activities and Leadership">
-                <h2>Activities and Leadership</h2>
-            </a>
+    <section id="act-sec" class="content-sec">
+        <a id="Activities-and-Leadership" class="section-head">
+            <h2>Activities and Leadership</h2>
+        </a>
+
+        <div id="rocketry" class="activity-wrapper">
             <h3>Rocketry at Virginia Tech | Fall 2019 - Present</h3>
             <ul>
                 <li>Working on the Software Team developing the launch control system.</li>
                 <li>Earned 3 research credits through rocketry in Spring 2020</li>
                 <li>Experience working with a complex ROS system on a Beagle Bone Black</li>
             </ul>
+        </div>
+        <div id="true-colors" class="activity-wrapper">
             <h3>True Colors | Fall 2021 - Present</h3>
             <ul>
                 <li>President of the True Colors club at Virginia Tech, based in the LGBTQ+ Resource Center</li>
                 <li>Experience running and cultivating a safe space for transgender and nonbinary students and faculty</li>
             </ul>
+        </div>
+        <div id="SWE" class="activity-wrapper">
             <h3>Society of Women Engineers | Fall 2019 - Present</h3>
             <ul>
                 <li>Attending meetings and networking with other women in engineering and companies that work with the organization</li>
                 <li>Experience communicating professionally</li>
             </ul>
-        </section>
+        </div>
+    </section>
 
-        <section id="Experience_Section">
-            <a id="Experience">
-                <h2>Experience</h2>
-            </a>
-
+    <section id="exp-sec" class="content-sec">
+        <a id="Experience" class="section-head">
+            <h2>Experience</h2>
+        </a>
+        <div id="experience-text">
             <h3>Cashier | YMCA at Virginia Tech | May 2021 -  Present</h3>
             <p>Experience working for a nonprofit and engaging with the local community through the YMCA’s events.</p>
-        </section>
+        </div>
+    </section>
 
-        <section id="Skills_Section">
-            <a id="Skills">
-                <h2>Skills</h2>
-            </a>
-            <ul>
-                <li>Fluent in Java and C</li>
-                <li>Some experience with Python and JavaScript through discord.py and discord.js</li>
-                <li>Experience working with ROS and managing long-range wireless networks</li>
-                <li>Practice working with time and resource restrictions through participation in VT Hacks</li>
-                <li>Completed Intro to HCI and basic CS courses up to CS 3214</li>
-                <li>Basics of psychology through Intro to Psych and Social Psych</li>
-                <li>Experience with Clip Paint Studio, Paint Tool SAI, Photoshop, and other illustration software</li>
-                <li>Basic tutorial-level experience with Unity</li>
-            </ul>
-        </section>
-    </div>
+    <section id="skills-sec" class="content-sec">
+        <a id="Skills" class="section-head">
+            <h2>Skills</h2>
+        </a>
+        <ul id="skill-list">
+            <li>Fluent in Java and C</li>
+            <li>Some experience with Python and JavaScript through discord.py and discord.js</li>
+            <li>Experience working with ROS and managing long-range wireless networks</li>
+            <li>Practice working with time and resource restrictions through participation in VT Hacks</li>
+            <li>Completed Intro to HCI and basic CS courses up to CS 3214</li>
+            <li>Basics of psychology through Intro to Psych and Social Psych</li>
+            <li>Experience with Clip Paint Studio, Paint Tool SAI, Photoshop, and other illustration software</li>
+            <li>Basic tutorial-level experience with Unity</li>
+        </ul>
+    </section>
 
-    <div class="end_block">
-        <a href="#Title">Back to Title</a></li>
-    </div>
+
+    <section id="end-block" class="content-sec">
+        <h2 class="section-head">Back to Title</h2>
+        <a class = "nav-bar" href="#Title">Back</a>
+    </section>
 </body>
 </html>
